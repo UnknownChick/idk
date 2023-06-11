@@ -1,0 +1,31 @@
+{
+  "name": "idk",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://roots.io/bedrock/\">     <img alt=\"Bedrock\" src=\"https://cdn.roots.io/app/uploads/logo-bedrock.svg\" height=\"100\">   </a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "watch": "vite build --build-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnknownChick/idk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnknownChick/idk/issues"
+  },
+  "homepage": "https://github.com/UnknownChick/idk#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "vite": "^4.3.9"
+  },
+  "devDependencies": {
+    "sass": "^1.63.3"
+  }
+}

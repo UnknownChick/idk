@@ -23,5 +23,8 @@ web/.htaccess
 # Composer
 /vendor
 
+# Node Module
+/node_modules
+
 # WP-CLI
 wp-cli.local.yml
