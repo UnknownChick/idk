@@ -2,12 +2,14 @@ import { defineConfig } from "vite";
 import sass from 'sass';
 import autoprefixer from 'autoprefixer';
 
+const themeName = 'custom-theme';
+
 export default defineConfig({
 	build: {
-		outDir: 'web/app/themes/custom-theme/dist',
+		outDir: `web/app/themes/${themeName}/dist`,
 		rollupOptions: {
 			input: {
-				main:'web/app/themes/custom-theme/assets/js/import.js',
+				main:`web/app/themes/${themeName}/assets/js/import.js`,
 			},
 			output: {
 				entryFileNames: '[name].js',
